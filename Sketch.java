@@ -1,5 +1,10 @@
 import processing.core.PApplet;
 
+/*
+* A program that draws a house
+* @author: L. Pei
+*/
+
 public class Sketch extends PApplet {
 	
 	
