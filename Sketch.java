@@ -32,21 +32,28 @@ public class Sketch extends PApplet {
     fill(255, 255, 0);
     ellipse(375, 25, 100, 100);
 
-    //house body
+    //chimney
+    fill(168, 96, 50);
+    rect(155, 105, 15, 35);
+
+    //shape of the house
     fill(168, 96, 50);
     rect(60, 150, 125, 125);
 
-    //top of the house
     fill(168, 96, 50);
     triangle(60, 150, 123, 100, 185, 150);
 
-    //window
+    // window 1
     fill(225, 225, 225);
-    ellipse(150, 190, 30, 30);
+    ellipse(92 , 185, 30, 30);
+
+    // window 2
+    fill(225, 225, 225);
+    ellipse(155, 185, 30, 30);
 
     //door
     fill(145, 61, 7);
-    rect(110, 225, 25, 50);
+    rect(110, 220, 25, 55);
 
 
   }
