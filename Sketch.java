@@ -58,7 +58,6 @@ public class Sketch extends PApplet {
     stroke(0, 0, 0);
     line(92, 170, 92, 200);
 
-
     // window 2
     fill(225, 225, 225);
     ellipse(155, 185, 30, 30);
@@ -72,9 +71,5 @@ public class Sketch extends PApplet {
     //door
     fill(145, 61, 7);
     rect(110, 220, 25, 55);
-
-
   }
-  
-
 }
